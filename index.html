@@ -23,6 +23,27 @@
         background-color: blueviolet;
         height: 100vh;
       }
+      .containerMy {
+        height: 100%;
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .hText {
+        background-color: cornsilk;
+        width: 400px;
+        height: 250px;
+        min-width: 400px;
+      }
+      .hPic {
+        background-color: red;
+        width: 200px;
+        height: 200px;
+        min-width: 200px;
+      }
       .apage {
         background-color: aquamarine;
         height: 100vh;
@@ -36,6 +57,11 @@
       }
       .navbar-collapse {
         flex-grow: 0 !important;
+      }
+      .containerMy {
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: auto;
       }
     </style>
   </head>
@@ -73,7 +99,25 @@
         </div>
       </div>
     </nav>
-    <div id="home" class="hpage"></div>
+
+    <div id="home" class="hpage">
+      <div class="containerMy">
+        <div class="hText">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+            vehicula, nunc at placerat consectetur, mauris massa pharetra dui,
+            sit amet mattis risus nulla sed orci. Donec viverra est in urna
+            lobortis varius. Praesent tincidunt vitae magna at feugiat. Proin
+            dapibus libero ut felis efficitur venenatis. Interdum et malesuada
+            fames ac ante ipsum primis in faucibus. Pellentesque sit amet
+            maximus lacus. Proin et mollis ligula. Aliquam sollicitudin mauris
+            rutrum, blandit dolor sed, aliquet ipsum. In sagittis magna ac felis
+            interdum interdum.
+          </p>
+        </div>
+        <div class="hPic"></div>
+      </div>
+    </div>
     <div id="about" class="apage"></div>
     <div id="contact" class="cpage"></div>
 
